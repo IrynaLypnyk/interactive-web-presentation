@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <script>document.documentElement.classList.add("js");</script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOI — адаптивная верстка и анимации</title>
+    <meta name="description" content="Портфолио: адаптивная верстка и анимации презентации BOOI. HTML, CSS и JavaScript, мобильная версия и интерактивные эффекты.">
+    <meta name="theme-color" content="#222222">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:title" content="BOOI — адаптивная верстка и анимации">
+    <meta property="og:description" content="Моя роль в проекте: адаптивная верстка и анимации презентации BOOI.">
+    <meta property="og:image" content="images/video-poster.jpg">
+    <meta property="og:image:alt" content="Визуальный стиль BOOI">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BOOI — адаптивная верстка и анимации">
+    <meta name="twitter:description" content="Портфолио: адаптивная верстка и анимации презентации BOOI.">
+    <meta name="twitter:image" content="images/video-poster.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body class="booi-page">
+<a href="#about" class="skip-link">К содержанию</a>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <a href="#screen-one" class="logo portfolio-logo" aria-label="BOOI — в начало">BOOI</a>
+            <h1 class="page-title">/ адаптивная верстка и анимации</h1>
+            <nav class="menu-header" id="navigation" aria-label="Разделы проекта">
+                <button class="close-menu" type="button" aria-label="Закрыть меню"> &times;</button>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#about" class="link-menu">о проекте</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#branding" class="link-menu">визуальный стиль</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#showcase" class="link-menu">демонстрация</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="navigation">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </div>
+    </header>
+    <section class="section-banner" id="screen-one">
+        <div class="container">
+            <div class="block-laptop">
+                <img src="images/laptop.png" alt="laptop" class="img-laptop">
+                <img src="images/laptop-blick.png" alt="" class="img-laptop-blick">
+                <svg aria-hidden="true" focusable="false" class="monkey_laptop" >
+                    <use xlink:href="images/svg/sprite.svg#monkey_laptop"></use>
+                </svg>
+                <div class="cubes">
+                    <div class="cube4">
+                        <img src="images/cube4.png" alt="" class="cube4-img">
+                        <img src="images/cube4_reflection.png" alt="" class="cube4-reflection-img">
+                    </div>
+                    <div class="cube5">
+                        <img src="images/cube5.png" alt="" class="cube5-img">
+                        <img src="images/cube5_reflection.png" alt="" class="cube5-reflection-img">
+                    </div>
+                </div>
+            </div>
+            <div class="laptop-overlay"></div>
+            <div class="section-text-wrap">
+                 <div class="banner-text">
+                    <p>«BOOI» – это онлайн-казино с харизматичным визуальным рядом и творческим подходом к отрасли онлайн-гэмблинга</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-about" id="about" tabindex="-1" aria-label="О проекте">
+        <div class="container">
+            <div class="team">
+                <div class="d-iblock text-center">
+                    <h2 class="title-task">моя роль:</h2>
+                    <ul class="list-team">
+                        <li class="item-member">адаптивная верстка</li>
+                        <li class="item-member">анимации</li>
+                    </ul>
+                    <p class="project-stack">HTML · CSS · JavaScript</p>
+                    <div class="to-site-btn">
+                        <a href="#showcase" class="to-site-link">Смотреть демо</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tasks">
+                <h3 class="title-task">ситуация:</h3>
+                <p>99% онлайн-казино в интернете выглядят плюс-минус одинаково: акцент на интерфейс всегда больше,
+                    чем на «фишки» и красоту (исключая баннера, созданные производителями игр), безликий логотип и
+                    отсутствие творческого подхода
+                </p>
+                <h3 class="title-task">задача:</h3>
+                <p>разработать брендовый сайт онлайн-казино с уникальным узнаваемым стилем, «фишками», но при этом
+                    не уйти в глубокое творчество — интерфейс должен оставаться простым и понятным
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section-booibrand" id="branding" tabindex="-1">
+        <div class="container">
+            <h2 class="title-section">решение</h2>
+            <div class="text-wrap">
+                <p>осуществить веб-брендинг, после чего задизайнить весь сайт в сюжете созданного digital-фирменного стиля</p>
+                <p>легкость, дружелюбие и расположение бренда «BOOI» воплотила харизматичная обезьянка, а написание названия
+                    выполнено с акцентом на приключения и динамику. Разумеется, вместе эти два составляющих представляют собой
+                    добротный фирменный знак:</p>
+            </div>
+        </div>
+        <div class="booibrand-banner">
+            <div class="booi-logo">
+                <img src="images/booi-logo.png" alt="booi-logo" class="booi-logo-img">
+                <svg aria-hidden="true" focusable="false" class="monkey_onlogo-svg" width="43px" height="81px">
+                    <use xlink:href="images/svg/sprite.svg#monkey_laptop"></use>
+                </svg>
+            </div>
+            <img src="images/chip_biggest.png" alt="" class="goldchip-img">
+            <img src="images/chip_red.png" alt="" class="redchip-img">
+            <img src="images/chip_violet.png" alt="" class="violetchip-img">
+            <img src="images/card_6.png" alt="" class="card-6-img">
+            <img src="images/card_5.png" alt="" class="card-5-img">
+            <img src="images/card_back.png" alt="" class="card-back-img">
+            <img src="images/booibanner-darkbg.png" alt="" class="darkbg-img">
+        </div>
+    </section>
+    <section class="section-booifeatures">
+        <div class="container">
+            <div class="text-wrap">
+                <p>динамичность и приключенческая жилка бренда продолжилась в оформлении сайта BOOI. «Фирменным почерком» сайта
+                    стали элементы интерфейса в стиле работ знаменитого абстракциониста Василия Кандинского, но на более трендовый,
+                    современный лад:</p>
+            </div>
+            <ul class="features-list">
+                <li class="features-item features-1-item" data-tilt>
+                    <img src="images/features1_points.png" alt="points unlimited" class="card-img js-tilt">
+                    <img src="images/btn-features1.png" alt="" class="item-btn">
+                    <svg aria-hidden="true" focusable="false" class="wave-svg" width="25px" height="14px">
+                        <use xlink:href="images/svg/sprite.svg#wave_tiny"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="pinkslashes-svg" width="79px" height="11px">
+                        <use xlink:href="images/svg/sprite.svg#slashes"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="yellowbigbagel-svg" width="10px" height="10px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="yellowsmallbagel-svg" width="6px" height="6px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="pinkbagel-svg" width="16px" height="16px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <img src="images/wave_tiny.svg" class="wave-svg" width="25px" height="14px" alt="">
+                    <img src="images/yellowtriangle-pinkdots.svg" class="yellowtriangle-pinkdots-svg" width="23px" height="28px" alt="">
+                    <span class="circle-big-yellow"></span>
+                    <span class="circle-small-yellow"></span>
+                    <span class="circle-pink-left"></span>
+                    <span class="circle-pink-right"></span>
+                </li>
+                <li class="features-item features-2-item" data-tilt>
+                    <img src="images/features2_bonuses.png" alt="bonuses" class="card-img js-tilt">
+                    <img src="images/monkey-gradient.png" alt="monkey-logo" class="monkey-logo-img js-tilt">
+                    <img src="images/btn-features2.png" alt="" class="item-btn">
+                    <img src="images/yellowbagel-bluedots.svg" class="yellowbagel-bluedots-svg" width="42px" height="42px" alt="">
+                    <img src="images/bluerhombus.svg" class="bluerhombus-svg" width="29px" height="24px" alt="">
+                    <span class="circle-big-blue"></span>
+                    <span class="circle-small-blue"></span>
+                </li>
+                <li class="features-item features-3-item" data-tilt>
+                    <img src="images/features3_spins.png" alt="spins" class="card-img js-tilt">
+                    <img src="images/btn-features3.png" alt="" class="item-btn">
+                    <svg aria-hidden="true" focusable="false" class="pinkslashes-svg" width="79px" height="11px">
+                        <use xlink:href="images/svg/sprite.svg#slashes"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="yellowbigbagel-svg" width="10px" height="10px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="yellowsmallbagel-svg" width="6px" height="6px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="pinkbagel-svg" width="16px" height="16px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <svg aria-hidden="true" focusable="false" class="yellowbiggestbagel-svg" width="16px" height="16px">
+                        <use xlink:href="images/svg/sprite.svg#bagel"></use>
+                    </svg>
+                    <img src="images/wave_tiny.svg" class="wave-svg" width="25px" height="14px" alt="wave">
+                    <span class="circle-big-yellow"></span>
+                    <span class="circle-small-yellow"></span>
+                    <span class="circle-pink-left"></span>
+                    <span class="circle-pink-right"></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="showmore">
+        <div class="svg-container">
+            <svg aria-hidden="true" focusable="false" class="slashes-svg" width="78px" height="11px">
+                <use xlink:href="images/svg/sprite.svg#slashes"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="bagel-yellow-svg" width="40px" height="40px">
+                <use xlink:href="images/svg/sprite.svg#bagel"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="bagel-violet-svg" width="15px" height="15px">
+                <use xlink:href="images/svg/sprite.svg#bagel"></use>
+            </svg>
+            <span class="dot-violet"></span>
+        </div>
+        <div class="link-container">
+            <button type="button" class="showmore-link" aria-expanded="false" aria-controls="forms-demo">Показать больше</button>
+        </div>
+    </div>
+    <noscript><p class="project-credit">Видеодемонстрации: <a href="video/casino.mp4">десктоп</a> · <a href="video/casino-small.mp4">мобильная версия</a>.</p></noscript>
+    <div class="decor-container">
+        <section class="section-booiforms">
+            <div class="container">
+                <div class="booiforms-content" id="forms-demo" tabindex="-1" aria-label="Дополнительная демонстрация">
+                    <div class="text-content">
+                        <p>анимированные элементы интерфейса — <span class="bold-text">в движении</span>:</p>
+                    </div>
+                    <div class="wrap-media">
+                        <div class="block-video">
+                            <img src="images/browser-window.png" class="browser-head-img"  alt="browser">
+                            <div class="container-video">
+                                <video class="video" width="1280" height="720" poster="images/video-poster.jpg"
+                                       playsinline muted loop controls preload="none">
+                                    <source data-src="video/casino.mp4" type="video/mp4">
+                                    Тег video не поддерживается вашим браузером.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-booivisuals" id="showcase" tabindex="-1" aria-label="Демонстрация">
+            <div class="container">
+                <div class="text-content">
+                    <p>благодаря динамичному визуальному стилю сайт не даёт пользователю заскучать, превращая его путешествие по сайту в интересное визуальное приключение:</p>
+                </div>
+                <div class="wrap-media">
+                    <div class="block-video">
+                        <img src="images/browser-window.png" class="browser-head-img"  alt="browser">
+                        <div class="container-video">
+                            <video class="video" width="1280" height="720" poster="images/video-poster.jpg"
+                                   playsinline muted loop controls preload="none">
+                                <source data-src="video/casino.mp4" type="video/mp4">
+                                Тег video не поддерживается вашим браузером.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="block-phone">
+                        <div class="container-phone">
+                            <video class="video video-phone" width="576" height="1024"
+                                   playsinline muted loop controls preload="none" poster="images/video-poster.jpg">
+                                <source data-src="video/casino-small.mp4" type="video/mp4">
+                                Тег video не поддерживается вашим браузером.
+                            </video>
+                            <img src="images/iphone.png" alt="phone" class="img-phone img-phone-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="decor-items-container">
+            <svg aria-hidden="true" focusable="false" class="redmonkey-svg" width="26px" height="20px">
+                <use xlink:href="images/svg/sprite.svg#monkey-tiny"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="violetsmallbagel-svg" width="11px" height="11px">
+                <use xlink:href="images/svg/sprite.svg#bagel"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="pinkbigbagel-svg" width="24px" height="24px">
+                <use xlink:href="images/svg/sprite.svg#bagel"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="yellowslashes-svg" width="65px" height="8px">
+                <use xlink:href="images/svg/sprite.svg#slashes"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="yellowdots-svg" width="4px" height="29px">
+                <use xlink:href="images/svg/sprite.svg#dots4"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="redcross-svg" width="16px" height="16px">
+                <use xlink:href="images/svg/sprite.svg#cross"></use>
+            </svg>
+            <svg aria-hidden="true" focusable="false" class="rhombus3pink-svg" width="17px" height="5px">
+                <use xlink:href="images/svg/sprite.svg#rhombus3"></use>
+            </svg>
+            <img src="images/yellowbagel-bluedots.svg" class="yellowbagel-bluedots-svg" width="17px" height="17px" alt="">
+            <img src="images/bluerhombus.svg" class="bluerhombus-svg" width="21px" height="19px" alt="">
+            <span class="dot-violet-small"></span>
+            <span class="dot-violet-big"></span>
+        </div>
+    </div>
+    <section class="section-monkey">
+            <img class="shining-bg" src="images/shining_bg.png" alt="">
+            <img class="monkey-logo" src="images/monkey_biggest.png" alt="">
+            <img class="shining-before" src="images/shining_before.png" alt="">
+    </section>
+
+    <footer class="footer">
+        <div class="we-make tepeWe">
+            <div id="trigger4"></div>
+            <div id="svg-wrapper-intro">
+	            <svg aria-hidden="true" focusable="false" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-236 281.3 368.8 33" style="enable-background:new -236 281.3 368.8 33;" xml:space="preserve">
+                      <style>
+                        .st1 {
+	                        clip-path: url(#SVGID_3_);
+                        }
+                        .st2 {
+	                        fill: none;
+	                        stroke: #FFDD00;
+	                        stroke-miterlimit: 10;
+                        }
+                        .st4 {
+                            fill: #fff;
+	                        stroke: none;
+	                        stroke-miterlimit: 10;
+                        }
+                        .st3 {
+	                        clip-path: url(#SVGID_5_);
+	                        stroke: #1D1D1B;
+	                        stroke-linecap: round;
+	                        stroke-linejoin: round;
+	                        stroke-miterlimit: 10;
+	                        stroke-dasharray: 1000;
+                        }
+                      </style>
+                      <g id="XMLID_1197_">
+                          <path id="XMLID_1489_" class="st4" d="M-188.9,291.2c-0.5-0.5-1.1-0.3-1.7,0c-0.9,1.2-3,3.7-6,3.4c0.1-0.6,0.3-1.3,0.5-1.8
+                          c0.1-0.4,0.4-1-0.1-1.3c-0.7-0.3-1.2-0.7-1.9-0.6c-1.2,4-4.7,9.2-5.4,10.1c-1.7,2.3-2.9,0.8-2.9-0.2c-0.1-3.2,1.9-10.1,2.2-12
+                          c0.1-0.5-0.1-0.6-2.5-0.5c-0.1,0.4-0.2,0.8-0.7,2.1c-0.4,1.2-0.9,2.3-1.5,3.4c-0.3,0.6-0.7,1.2-1,1.9c-0.7,1.2-1.4,2.4-2.3,3.5
+                          c-0.5,0.6-2.6,2.4-2.3-0.6c0.3-3.1,1-6.6,1.9-9.6c0.2-0.7-2-1.2-2.9-0.6c-1.8,4.2-3.6,8.3-6.1,12.2c-1.4,2.3-3.6,2.3-3.3-1.5
+                          c0.1-1.4,0.8-2.9,1.4-4.1c0.1-0.2-1.8-1.2-2-1c-1.7,2.4-3.3,9.7,1.2,10.3c2.2,0.3,3.8-2.7,4.7-4.2c1.1-1.9,2.2-3.8,3.2-5.8
+                          c-0.3,1.4-0.5,2.8-0.6,4.3c0,1.3,0,3.6,1.5,4.1c2,0.7,3.8-1.2,5-2.6c0.7-0.8,1.3-1.8,1.8-2.7c-0.2,1-0.3,1.9-0.3,2.8
+                          c-0.1,1.8,0.3,3.6,2.1,4.3c2.1,0.8,4.7-1,7.2-7.1c-0.2,2.4-0.5,5.7,1.8,5.6c1.7-0.1,2.4-1.9,2.7-3.2c0.3-1.4,0.2-2.7-0.4-3.8
+                          c1.6-0.3,3-1.2,4.3-2.5c-0.7,3.2-0.3,10.8,2.2,9.1C-189.1,300.5-188.9,292-188.9,291.2z M-197.2,299.5c0-1.2,0.1-2.4,0.3-3.6
+                          c1.1,0.7,1.2,2.6,0.9,3.5c-0.2,0.9-1,1.9-1.2,1.4C-197.2,300.3-197.2,299.9-197.2,299.5z" />
+                          <path id="XMLID_4_" class="st4" d="M-149.5,290.3c0.1,0.6,0.3,1.6,0.4,2.1c-0.5-0.1-1.2-0.1-1.7-0.1c-0.1,0.2-2,5.1-6,8.2
+                          c-1.5,1.2-2.7,0.5-3-1.8c-0.1-0.5,0-1.4,0-1.9c3.2-0.4,5.6-2.1,5-4c-0.7-2.2-4.4-1.9-5.9,0c-0.7,0.9-1.4,2.2-1.6,3.7
+                          c-0.8,0.3-1.6,0.6-2.3,1c0.2-1.5,0.3-3.5,0.2-5.1c-0.6-0.2-1.4-0.2-1.9-0.2c-1.5-0.8-3.1-1.3-4.7-0.7c-2,0.8-2.6,3.5-2.5,5.4
+                          c0.1,1.6,1.2,2.7,2.8,2.1c0.8-0.3,1.4-1,2-1.6c0.4-0.4,1.8-2.4,2.1-2.7c-0.1,1.1-0.2,3.6-0.3,4.7c-3.9,2.5-6.3,6-6.9,7.5
+                          c-0.9,2.1-1.2,4.3,0.2,6c2.8,3.3,5.8-0.1,6.9-2.9c1-2.6,1.3-5.5,1.7-8.3c0.1-0.8,0.2-1.7,0.3-2.5c0.7-0.4,1.5-0.8,2.3-1.1
+                          c0,1.8,0.6,3.5,2.1,4.4c1.8,1,4.1-0.5,5.4-1.9c1.3-1.3,1.9-2.3,3-3.8c-0.2,1.1-0.9,4.9-1.1,5.9c0.6,0.2,1.5-0.2,2-1.5
+                          c0.5-1.2,2-6.6,2.3-7.3c0.3,1.7,0.7,4.1,1.1,5.8c0.4,1.7,1.3,3,3.4,2.9c-0.3-1.2-1.5-6-2.2-9.9
+                          C-147.2,289.5-146.9,289.8-149.5,290.3z M-159.6,295.9c0.4-1.9,1.8-3.2,2.7-3.4c0.5-0.1,1.5,0.6,0.8,1.7
+                          C-156.6,295.1-158.1,295.8-159.6,295.9z M-167.2,301.1c-1.1,9.8-3.6,12.3-5.3,10.9C-175.9,309-168.1,301.8-167.2,301.1z
+                          M-168.1,292.7c0.1,0,0.5,0,0.8,0.2c-0.4,1-2.1,3.4-2.3,3.7c-1.3,1.4-1.8,0.6-1.7-0.2C-170.8,293-168.8,292.8-168.1,292.7z
+                          M-133.4,291.7c0-0.1-1.3-0.8-2.2-0.7c-0.2,0-0.4,1.1-0.5,1.7l0,0c-1.3-0.9-3-1.1-4.5-0.3c-2.2,1.1-2.5,4.1-2.4,6.3
+                          c0.1,1.8,1.7,3.2,3.5,2.1c1.5-1,2.1-2.3,3.1-4.4c0,0.6,0,2.1,0,2.6c0,1.9,0.7,3.2,2.1,3.3C-134.5,300.8-134.4,296.1-133.4,291.7z
+                          M-139.2,293.7c1.3-1.1,2.3-0.3,2.7,0.2c-0.7,2-1.8,3.9-2.2,4.5c-0.5,0.7-1.3,1.8-1.8,0.4C-140.9,297.7-140.6,295-139.2,293.7z
+                          M-112.2,292.2c-0.6-1-2.4-0.3-2.5-0.2c-0.9,1.6-1.8,3.2-2.8,4.7c-0.1-0.5-1.2-5.1-1.3-5.1c-0.8-0.2-2.6,0.2-2.6,0.2
+                          c-0.1,0-0.2,0.1-0.3,0.3c-0.3,0.7-1.6,5.1-2.5,6.5c-0.9,1.5-2,2.4-3.3,2.2c-1.6-0.3-1.5-2.5-1.3-3.7c2-0.1,3.3-0.3,4-1.4
+                          s0.3-2.4-0.7-3.1c-2.7-1.8-5.4,1.3-5.6,4c-0.1,2.3,0,5,2.8,5.4c2.5,0.4,4.4-2,5.6-4.3c-0.4,3.5,0.4,5.2,2.1,4.6
+                          c0.2-1.7,0.6-7.2,0.9-9.4c0.3,1.2,1,4.7,1.5,5.7c0.1,0.3,0.6,0.6,0.9,0c0.9-1.6,2.3-4.1,3.3-5.7c0,2.1-0.1,5.6,0.1,7.7
+                          c0.1,1.6,0.5,1.4,1.9,1.1C-111.9,300.1-111.7,293.1-112.2,292.2z M-125.6,295.2c-0.3,0.8-2,0.8-2.9,0.7c0.4-1.7,1.5-2.3,2-2.3
+                          C-125.8,293.6-125.1,294-125.6,295.2z" />
+                          <path id="XMLID_6_" class="st4" d="M-77.8,294.1c-0.1-1.4-1-3.2-2.7-2.7c-0.8,0.2-1.5,0.9-2,1.7c0.5-4,0.6-8.6-3.4-9.9
+                          c-4.1-1.4-10,1.5-8.5,6.4c0.3,1,1,1.9,1.7,2.7c-2.8,1-4,5.2-3.7,7.7c0.1,1.4,0.9,2.5,2.3,2.9c1.5,0.5,3-1,3.7-2.1
+                          c1.9-2.8,1.6-6.4-0.6-9c-1.6-1.9-3.5-3.9-0.8-5.9c0.9-0.6,2-1,3.1-1.3c1.5-0.5,3.7-0.4,4,1.9c0.6,1.6-1.2,24.2-1.2,26
+                          c2.5,0.1,2.2-1.5,2.4-4c0.1-1.9,0.2-5.1,0.3-7C-79.1,303.5-77.5,297.4-77.8,294.1z M-81.7,293.7c1.3-1.9,1.9,0.6,1.8,1.5
+                          c-0.2,2-1.2,5.3-3.3,5C-83.1,296-82.3,294.6-81.7,293.7z M-93.5,300.6c-1,0.4-0.9-2.2-0.9-2.5c0.2-1.6,1.1-3.7,2.7-4.4
+                          C-90.4,296.7-91.8,299.9-93.5,300.6z M-44.3,294.7c-0.8,2.3-3,5.1-3.9,3.9c-0.6-0.9-0.1-2.9,0.2-3.9c0.2-0.6,0.6-1,1.1-1.3
+                          S-44.8,293.5-44.3,294.7z M-23.6,295.6c0,1.1-0.5,2.8-1.4,4.3c-0.8,1.4-3.4,2.3-3.7-0.4c-0.1-1.2,0-2.2,0.2-3.4
+                          c0.3-1.6,0.7-3.2,1.3-4.7c0-0.1-0.8-1-2-1c-0.1,0.1-3.7,3.8-7.3,4.1c0.3-1.1,1.3-4,1-4.2c-0.6-0.4-1.8-0.4-1.8-0.2
+                          c-0.9,2.2-1.7,4.4-1.8,6.7c-0.9,0.5-2.3,1-3.1,1.6c0.3-2,0.5-4.4,0.5-6.2c-1.6-0.4-0.9-0.2-2,0c0,0.2-0.1,0.8-0.2,1.1
+                          c-1.1-1-2.8-1.6-4.1-1c-1.3,0.5-2,1.8-2.2,3.1c-1.1,1-2.8,2.7-3.9,3.6c-1.4,1.2-1.1-0.5-1.1-0.9c0-1.3,0.2-4.6,0.4-5.8l0,0
+                          c0.1-0.1,0.1-0.3,0-0.4c-0.5-0.7-0.9-1.3-1.7-1.3c-0.3,0-0.6,2.1-0.7,2.8c-1.1,0.8-4.6,2.3-6.2,2.4c0.1-1.2,0.2-3.3,0.2-4.6
+                          c-0.6-0.3-2.1-1-2.3-0.1c-0.7,3.3-2,6.5-5.1,8.8c-0.8,0.6-3.7,1-3.2-2.6c2.3,0.1,5.8-2.9,5.2-5c-0.4-1.4-2.3-1.8-3.5-1.6
+                          c-1.5,0.2-2.6,1.4-3.3,2.6c-1.4,2.4-1.8,6.6,0.8,8.3c3.5,2.2,7-2,8.7-5.4c0,0.4-0.5,5.8-0.5,7.6c2.2,0.2,2.3-2.2,2.5-3.9
+                          c0.1-0.8,0.2-1.6,0.2-2.4c1-0.4,5.4-2,6.1-2.6c-0.1,0.6-0.2,4.8,0.7,5.9c1.6,1.9,4.5-1.5,6.3-3.4c0,0.1,0,0.2,0,0.3
+                          c0.1,1.9,1.1,3.9,3.3,3c1.2-0.5,2-1.7,2.7-3c-0.2,1.3-0.3,2.5-0.5,3.7c-1.3,0.9-2.5,2-3.6,3.2c-1.2,1.4-3.5,5.1-3.1,7.5
+                          c0.5,3.4,5.3,1.3,7.3-4.4c0.9-2.6,1.4-5.1,1.9-7.9c0.9-0.5,2.4-1,3.3-1.5c0.1,1.5,0.2,3.3,1.9,3.3c1.9,0,3-1.7,3.2-3.4
+                          c0.2-1.2-0.5-2-1.3-2.4c1-0.2,4.1-1.3,5.5-2.8c-1.2,3.8-2.1,8,0.5,9.9c1.5,1.1,3.9,0.5,5.3-2C-23,298.7-22.5,295.7-23.6,295.6z
+                          M-70.5,292.3c0.6,0.9-1.6,3.1-3,3C-73.3,292.9-71.4,291.2-70.5,292.3z M-37,296.3c1.3,0,1.9,1.7,1.3,2.6
+                          C-36.5,300.2-37.8,299.6-37,296.3z M-46.2,303.9c0.3-0.4,0.6-0.7,1-1c0,0.2-0.1,0.5-0.1,0.7c-0.4,1.6-1.2,4.8-2.7,6.5
+                          c-0.5,0.6-1.8,1.5-1.7,0C-49.7,307.9-47.6,305.5-46.2,303.9z" />
+                      </g>
+                      <g>
+                          <g>
+                              <g>
+                                  <g>
+                                      <g>
+                                          <g>
+                                              <g>
+                                                  <defs>
+                                                      <path id="SVGID_1_" d="M121.7,291c0.2,0.5,0.2,0.9,0.2,1.4c0,0.1,0,0.5,0.2,0.6c0.5,0.6,1.1,1.1,1.6,1.3
+                                                      c0.2,0.1,0.7,0.2,1.1,0.3c0,0.2,0,0.4,0,0.5c-0.2,0.4-0.5,0.5-0.7,1.3c0,0.1-0.2,0.3-0.2,0.3c-0.5,0.1-1.1,0.2-1.3,0.3
+                                                      c-0.2,0.1-0.5-0.1-0.7,0.2c0.5,0.4,1.3,0,1.8,0.4c0.2,0.4,0.2,0.8,0.2,1.3c0,0.4,0,0.8-0.2,1.4c0,0.1,0,0.2,0,0.2
+                                                      c-0.5,0.2-0.7,0.4-1.3,0.5c-0.2,0.1-0.5,0-0.7,0s-0.7,0-0.7,0.6c-0.5,0.5-1.1,0.8-1.8,0.9c-1.8,0.1-4,0.2-6.2-0.1
+                                                      c-0.5-0.1-1.3,0-1.8-0.1c-0.5,0-1.1-0.1-1.6-0.1c0,0-0.2-0.1-0.2,0c-1.3,0.4-2.7,0.2-4,0.2c-2.9,0-6-0.2-8.6-0.3
+                                                      c-1.3-0.1-2.7-0.1-4-0.1c-1.6,0-3.3,0-4.9-0.1c-2.1-0.1-4,0-6.2,0c-0.7,0-1.8,0.1-2.7,0.2c-0.7,0-1.3,0-2.1,0
+                                                      c-2.1,0-4.4,0-6.5,0c-2.9,0-6.2,0-9.2,0.1c-1.3,0-2.9,0-4.4,0c-0.2,0-0.5,0-1.1,0.1c-1.1,0.2-2.1,0.2-3.2,0.2
+                                                      c-2.3,0.1-4.9,0.1-7.2,0.1c-0.7,0-1.6,0-2.3-0.1c-1.8-0.2-3.5-0.1-5.1,0h-0.4c-2.7,0.5-5.4,0.3-8.1,0.3
+                                                      c-0.7,0-1.6-0.1-2.3-0.1c-0.2,0-0.5,0-0.7,0c-1.8,0.3-3.8,0.3-5.6,0.4c-0.2,0-0.7,0-1.1,0c-1.8,0.3-4,0.2-6,0.2
+                                                      c-0.7,0-1.8,0-2.7,0.2c-0.7,0.1-1.6,0.1-2.3,0.2c-2.3,0.2-4.6,0.5-7,0.5c-1.1,0-2.1,0-3.2,0c-1.6,0-3.5-0.2-5.4-0.5
+                                                      c-0.5-0.1-1.3-0.3-1.8-0.3c-1.1-0.1-2.1-0.7-3.3-1.3c-0.2-0.1-0.5-0.2-0.5-0.7c0-0.1,0-0.2-0.2-0.2
+                                                      c-0.2-0.1-0.5-0.5-0.7-0.8c-0.2-0.2-0.2-0.6-0.2-0.9c0-0.2,0-0.4,0-0.6c-0.2-0.5,0-0.8,0.2-0.8s0.2,0,0.5,0.1
+                                                      c0.5,0.4,1.1,0.1,1.6-0.2c0.7-0.5,1.6-1.1,2.3-1.5s1.6-0.8,2.3-1.2c1.3-0.6,2.9-1.1,4.6-1.5c2.1-0.6,4.4-0.8,6.5-1.4
+                                                      c1.1-0.3,2.3-0.3,3.5-0.5c0.5-0.1,1.1-0.2,1.3-0.2c1.6-0.2,3.5-0.3,5.1-0.5c0.2,0,0.5,0,0.5,0c0.5,0,1.1,0,1.3-0.1
+                                                      c0.2,0,0.5-0.1,0.7-0.1c1.6,0.1,2.9-0.2,4.6-0.2c0.5,0,1.1-0.2,1.8-0.2c1.8-0.2,4-0.3,6-0.6c2.9-0.4,6-0.4,8.8-0.6
+                                                      c1.6-0.1,3.2,0,4.6,0c1.8-0.1,3.8-0.2,5.6-0.3c0.5,0,0.7,0,1.3,0c2.3-0.2,4.9-0.3,7.2-0.5c0.7-0.1,1.8-0.2,2.7,0h0.2
+                                                      c2.9-0.1,6,0,9.2-0.1c4.4-0.1,8.3-0.2,12.7-0.3c1.6,0,3.5-0.1,5.1,0.1l0,0c0.7-0.2,1.8,0,2.7,0c1.6,0,3.5,0,5.1,0
+                                                      c1.8,0,3.5,0.1,5.4,0.1c0.7,0,1.6,0,2.3,0.1c3.5,0,7,0.1,10.9,0.1c0.5,0,1.1,0,1.6,0.2s1.1,0.2,1.6,0.1
+                                                      c1.1-0.1,2.1,0.4,3.3,0.6c0.5,0.1,0.7,0.3,1.1,0.7C121.3,290.4,121.5,290.7,121.7,291" />
+                                                  </defs>
+                                                  <clipPath id="SVGID_3_">
+                                                      <use xlink:href="#SVGID_1_" style="overflow:visible;" />
+                                                  </clipPath>
+                                                  <g class="st0">
+                                                      <g>
+                                                          <g>
+                                                              <line id="SVGID_2_" class="st1 highNew" x1="-13.3" y1="300.2" x2="124.6" y2="295.1" />
+                                                          </g>
+                                                      </g>
+                                                  </g>
+                                              </g>
+                                          </g>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                          <g>
+                              <g>
+                                  <g>
+                                      <g>
+                                          <g id="stroke">
+                                              <defs>
+                                                  <path id="SVGID_4_" d="M33.4,290.8c-0.8,0.7-2,1.9-2.6,2.8c-0.3-2.8-3.1-2.5-5.2,0.2c0.1-1.2,0.3-2.9,0.1-4
+                                                  c-0.6-0.2-1.5-0.6-2.2-0.4c-0.3,1.9-0.8,5.4-3.9,8.4c-1.8,1.8-3,0.5-2.4-3.9c0.1-1,0.9-4.1,0.7-4.2c-0.5-0.3-2-0.4-2.1-0.1
+                                                  c-0.2,0.9-0.5,1.8-0.7,2.7c-1.5,1.2-3.6,1.7-5.5,1.9c0.1-1,0.2-2.9,0.1-3.9c-0.8-0.6-1.8-0.6-2.5-0.6c0,0.8-0.1,2-0.1,2.6
+                                                  c-1,1.6-2.8,3.3-4.2,4.5c-0.4,0.4-2.3,1.8-1.8-1.5c0.3-2,0.5-3.4,1-5.3c0-0.2-2-0.6-2.2,0c-1.2,2.8-5.2,8.2-6,8
+                                                  c-0.6-0.1-0.4-4.9,0.7-7.8c0.1-0.3-1.4-0.9-2.6-0.2c-0.9,2.1-1.4,9.5,0.2,10.3c1.4,0.7,2.4-0.2,3.4-1.3
+                                                  c1.1-1.3,2.1-2.7,3-4.2c-0.5,1.9-0.5,3.8,1.1,4.5c1,0.5,2.5-0.1,3.4-0.7c1.3-1,2.8-2.1,3.8-3.5c0,0.2,0,0.3,0,0.5
+                                                  c0,2-0.2,4.1-0.7,6.1l0,0c-0.1,0.3,1.5,0.1,2.1-0.5s0.8-1.6,0.9-2.5c0.2-0.9,0.3-1.8,0.4-2.6c1.8-0.4,3.7-1.1,5.3-2.1
+                                                  c-0.1,0.6-0.2,1.2-0.2,1.9c-0.1,1.3,0.1,3.1,1.3,4c2.4,1.4,5.3-1.3,6.9-3.5c0,0.5-0.3,3.1-0.1,3.8c0,0,1.4,0.9,1.9-0.4
+                                                  c0.7-4.3,2.1-5.9,3.4-6.7c1-0.7,1.5,0.3,1.3,1.7c-0.2,1.6-0.2,4.2-0.2,5.1c0.5,1.1,1.6,1,2,0.7c0.1-1.6,1.1-6.9,2.9-8.5
+                                                  c2-1.7,2.3,0.5,2.1,2.6c-0.2,1.8-0.4,3.1-0.5,5c0,1,2.4,1.2,2.4,0.9c0-1.9,0.4-4.2,0.4-6.4c0-1.4,0-3.1-1.1-4.2
+                                                  C36.4,289.1,34.4,290.1,33.4,290.8z M56.9,290.6c-0.7,0.4-1.3,0.9-1.8,1.5c0-0.6,0.5-2.7-1.8-2.2c-0.4,2.3-2.4,5.6-4.1,7.3
+                                                  c-1.2,1.3-2.8,3.1-4.8,2.9c-1.6-0.1-1.8-2.9-1.6-4.1c2.2,0.6,5.1-0.2,5.7-2.1c0.5-1.5-0.2-2.9-2-3.3c-1.9-0.3-3-0.1-4.4,1.5
+                                                  c-2.5,3-2.4,8.6,1.7,9.6c2,0.5,4.2-1.2,5.5-2.5c0.9-0.9,2-2,2.8-3.1c-0.2,0.9-0.9,7.8-1.9,13.1c0,0.2,1.7,0.5,2.2-0.8
+                                                  c0.6-1.9,1.3-6.8,1.4-7.6c0.9,0.5,2.1,0.3,2.9-0.1c2.4-1.1,3.8-5.1,3.5-7.8C60,291,58.7,289.7,56.9,290.6z M53.9,299.8
+                                                  c0.2-1.4,0.7-4.6,1.1-5.7c1.5-3.9,2.8-2.4,2.8-1.1c0,1.4-0.5,4-1.5,5.6C55.9,299.5,54.9,300.4,53.9,299.8z M43.1,294.8
+                                                  c0.3-0.5,0.7-1.1,1-1.5s0.8-0.8,1.2-1c0.7-0.4,1,0.9,0.6,1.7C45.3,295.2,44,295.1,43.1,294.8z M90.5,290.3
+                                                  c-0.3,0.6-0.4,1.5-0.7,2.3c-1.1,0.5-4.2,0.9-4.4,0.9c0.2-1.1,1.4-4.4,0.8-4.6c-1.7-0.8-2.4,0.5-2.3,0.2
+                                                  c-0.4,1.3-0.6,2.3-0.8,3.3s-0.4,1.9-0.5,2.9c-0.4,0.7-0.9,1.3-1.4,1.9c-1.2,1.4-4.2,3.7-5.6,2.6c-2.8-1.8-1.2-8,2.3-8.5
+                                                  c0.4-0.1,0.3-0.6-0.6-1.2c-1.1-1-3.2-0.4-5,2.9c-1.2,1.8-1.8,2.9-3.3,4.6c-0.9,1-2.8,2.7-4.1,1.6c-0.8-0.7-1.1-2.3-0.8-3.7
+                                                  c1.6,0.5,3.3,0.4,4.7-0.9c0.9-0.8,1.3-2.1,0.4-3.7c-0.8-1.2-2.9-1.3-4.1-0.7c-4.6,2.3-4.6,9.2-1.6,10.3
+                                                  c1.8,0.6,4.1,0.3,5.7-1.3c0.7-0.7,1.4-1.5,2.2-2.5c-0.2,3.6,3.1,5.9,6.5,4.4c2.3-1,3-2,4.3-3.5c-0.1,1.1-0.2,2.2-0.2,3.4
+                                                  c0,0.9,1.6,0.2,2.2-0.5c0.2-1.6,0.3-2.9,0.6-4.6c0-0.1,0.1-0.3,0.1-0.4c1.4,0.2,3.4-0.4,4.6-1.1c-0.3,2.3-0.2,4.8,1.5,5.9
+                                                  c0.1,0.1,1,0.1,1-0.1c-0.3-4.1,0.5-8.3,1-10.3C93.2,289.7,90.7,289.6,90.5,290.3z M67.3,291.1c0.6-0.1,1.1,0.7,0.6,1.5
+                                                  c-0.3,0.4-1.3,1.8-3.5,1.5C65.6,291.3,66.7,291.2,67.3,291.1z M117.3,294.5L117.3,294.5C117.3,294.5,117.2,294.7,117.3,294.5
+                                                  C117.2,294.7,117.2,294.7,117.3,294.5C117.2,294.7,117.2,294.7,117.3,294.5c-1.4,2.2-3.4,4.1-5.6,5.3
+                                                  c-0.9,0.5-1.9,0.8-2.9,0.5c-1.1-0.4-1.4-1.7-1.4-3c2.2-0.7,4.1-2.7,4.5-5.1c0.1-0.6,0.2-3.9-3.5-3.5
+                                                  c-1.7,1.4-2.7,4.1-3.3,6.3c-0.8,1.3-1.6,2.5-2.7,3.7c-0.7,0.8-1.8,1.6-3,1.5c-1.6,0-2.2-2.5-1.8-5.3c1.4,0.5,3.1,0.9,4.5,0.1
+                                                  c1.2-0.8,2.4-2.2,1.8-3.8c-0.5-1.3-2.3-1.8-3.6-1.9c-1.7-0.1-3,0.9-4,2.4c-1.6,2.5-2.2,7.4,0.6,9.2c3,1.9,6-0.3,7.9-2.9
+                                                  c0.2,1.3,0.7,2.5,1.7,3.4c4.2,3.5,9.5-2.3,11.1-5.8C117.9,294.9,117.4,294.3,117.3,294.5z M107.4,295.5
+                                                  c0.2-1.2,0.8-2.4,1.4-3.5c0.2-0.4,1.4-2.2,1.3-1.2s-0.5,2-1,2.8c-0.3,0.5-0.7,1-1.1,1.4C107.9,295.2,107.6,295.3,107.4,295.5
+                                                  z M97.9,293.8c0.4-0.9,1.5-2.8,2.8-3.1C102.6,290.6,101.6,294.2,97.9,293.8z" />
+                                              </defs>
+                                              <clipPath id="SVGID_5_">
+                                                  <use xlink:href="#SVGID_4_" style="overflow:visible;" />
+                                              </clipPath>
+                                              <path class="st3" d="M-7.1,291.4c-0.8,1.6-0.7,4.4-0.6,6.2c0,0.7,0.3,2.1,1.2,2.2c0.6,0.1,1.2-0.7,1.6-1.1
+                                              c0.8-0.9,1.7-2.2,2.5-3.2s2.2-2.7,2.5-4.1c0.1,0,0.2,0,0.2-0.1c-0.5,2-1.6,4.2-0.9,6.3c0.6,1.9,1.8,1.4,3,0.5
+                                              c1-0.7,2.1-1.7,3-2.6c0.9-0.8,2.9-2.3,2.7-3.9c-1,1.3-0.8,3-0.8,4.7c0,1.2,0.3,3-0.2,4.1c-0.5-1.5,1.3-3.1,1.4-4.6
+                                              c1.3-0.1,4.6-1.7,5.9-2.1c0.6-0.2,0.5,0.3,1.1-0.1c0.8-0.6,0.6-1.8,0.6-2.6c-0.8,1.9-0.7,4.4-0.4,6.5c0.2,1.4,0.6,2.6,2.4,2.2
+                                              c1.5-0.3,2.4-1.7,3.2-2.9c0.6-1,1.9-1.7,2.3-2.8c0.3-0.9,0.3-1.8,0.6-2.6c-0.7,1-0.7,3.1-1,4.4c-0.3,1.2,0,2.2-0.1,3.5
+                                              c0.5-2.3,2.3-5.3,4.6-6.2c2.9-1.1,2,4.9,2,6.7c1.4-2.8,1.6-7.1,5.2-8c1.3-0.3,2.4-0.1,2.7,1.4c0.3,1.7,0,4,0,5.8
+                                              c0.6-1.8,4.9-2.8,6.5-2.9c1.4-0.1,4.1-1.4,3.1-2.9c-2.2-3.6-5.2,1.6-5.5,3s-0.1,3.4,0.8,4.5c0.9,1.2,2.1,0.8,3.5,0.3
+                                              c1.7-0.8,3.3-2,4.6-3.4c0.8-0.7,1.7-1.9,2.2-2.8c0.5-0.8,0.2-1.9,0.7-2.7c-0.1,1.6-0.1,3.4-0.3,5c-0.2,1.3-0.7,2.4-0.7,3.8
+                                              c-0.1,2.3,0.3,5.6-0.7,7.7c-0.3-2.6,0.6-5.4,0.8-7.9c0.1-1.9,0.7-3.8,1.4-5.6c0.5-1.2,2.3-3.8,3.9-3.1
+                                              c0.5,1.3,0.8,2.8,0.7,4.4c-0.1,1.9-0.8,2.8-2.3,3.8c-0.9,0.6-1.3,0.9-2.4,0.8c-0.9,0-1.3-0.1-1.4-1.2
+                                              c-0.1-1.9,1.7-3.5,3.2-4.2s3.1-1.2,4.9-1.2c1.3,0,2.4,0.6,3.7,0.7c1.8,0.2,4.3,0.6,4.8-1.4c0.5-1.9-1-3-2.4-2.3
+                                              c-1.7,0.8-3.4,3.7-3.6,5.5c-0.2,1.7,0.2,3.2,2,3.8c2,0.5,2.8-0.4,4.3-1.5c0.9-0.6,1.3-1.7,1.9-2.4c0.5-0.6,1.1-1,1.6-1.6
+                                              c0.6-0.7,0.8-1.7,1.4-2.4c0.4-0.4,1.1-0.6,1.6-1c-0.6,0.9-1.8,1.1-2.4,2.1c-0.5,0.7-0.7,1.9-0.9,2.8c-0.2,1.4,0.5,4,2,4.5
+                                              c1.7,0.5,4.7,0,5.9-1c2.6-2.1,4.5-5.2,4.4-8.7c0,1.8-0.2,3.9-0.8,5.5c-0.5,1.3-1,2.3-1,3.8c0-1.2,0.3-2.2,0.6-3.4
+                                              c0.1-0.2,0.2-0.9,0.3-1.1c0.5-0.7,1.9-0.5,2.7-0.7c2-0.4,4.5-1.1,4.7-3.6c-1.2,1.8-1.2,5.6-0.8,7.7c0.9-2.6,5.3-4.3,7.9-4.3
+                                              c1.6,0,4.4-1,4.5-2.8c0.1-1.9-3.4-1.8-4.7-0.9c-1.3,1-1.4,3-1.6,4.6c-0.1,1.1-0.3,2.8,0.3,3.9c1.3,2.4,3.9,1.8,5.4,0.3
+                                              c2.2-2.1,5.8-3.1,7.9-5.4c0.7-0.7,1.1-2.4,0.8-3.5c-0.3-1.5-1.5-1.4-2.8-0.5c-1.6,1.1-1.4,4.2-1.5,5.9c-0.1,1.2-0.4,2.7,0,3.9
+                                              c0.8,2,4.2,1.7,5.6,0.8c0.9-0.5,2.2-1.7,2.9-2.5c0.3-0.3,0.3-0.8,0.6-1.2c0.2-0.3,0.6-0.6,0.8-0.9" />
+                                          </g>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                    </svg>
+            </div>
+            <div class="foo-logo">
+                <a href="https://eugene-miller.com/" target="_blank" rel="noopener" aria-label="Сайт студии">
+                    <img src="images/mbs-logo-scroll.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <p class="footer-credit">
+            2018 · Web implementation by <a href="https://irynalypnyk.com/" target="_blank" rel="noopener">Iryna Lypnyk</a> · Design by <a href="https://eugene-miller.com/" target="_blank" rel="noopener">Studio Eugene Miller</a>
+        </p>
+        <div class="link_to_go_back">
+            <a href="#screen-one">
+                <svg aria-hidden="true" focusable="false">
+                    <line x1="4%" y1="50%" x2="98%" y2="50%"></line>
+                    <line x1="4%" y1="50%" x2="22%" y2="5%"></line>
+                    <line x1="4%" y1="50%" x2="22%" y2="95%"></line>
+                </svg>
+                в начало
+            </a>
+        </div>
+    </footer>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
