@@ -6,4 +6,18 @@ Built with HTML, CSS and vanilla JavaScript, with responsive layouts, CSS animat
 
 [Live demo](https://interactive-web-presentation.netlify.app/)
 
+## Stack
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## Features
+
+- Responsive layouts
+- CSS animations
+- Interactive navigation
+- Lazy-loaded video demonstrations
+- Mobile menu
+
 This is a portfolio demo of a historical project and is not an active casino website.
